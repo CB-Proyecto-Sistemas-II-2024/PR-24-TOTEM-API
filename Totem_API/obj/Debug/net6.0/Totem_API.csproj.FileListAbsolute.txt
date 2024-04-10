@@ -1779,3 +1779,4 @@ C:\Users\elias\source\repos\Totem-PR-24\Totem_API\obj\Debug\net6.0\refint\Totem_
 C:\Users\elias\source\repos\Totem-PR-24\Totem_API\obj\Debug\net6.0\Totem_API.pdb
 C:\Users\elias\source\repos\Totem-PR-24\Totem_API\obj\Debug\net6.0\Totem_API.genruntimeconfig.cache
 C:\Users\elias\source\repos\Totem-PR-24\Totem_API\obj\Debug\net6.0\ref\Totem_API.dll
+C:\Users\elias\source\repos\Totem-PR-24\Totem_API\obj\Debug\net6.0\Totem_API.sourcelink.json
