@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jSlMfYpryeu15dhGHJClDfUZMUF0nZU7J9jI672UqTh4bhav3x2L+ujfIvzt+2GxmkoIZBcU0WK0XYQh1rtO1Q==",
+  "dgSpecHash": "sfDRJirTdnls+Lf/JjzXuyP9QGoam7Y+QIC3TuXW3HqfgUo7uirvrNRGE7J5MI42pe8Mc4qKXlJzJmCTCBURLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\Totem_API.csproj",
   "expectedPackageFiles": [
@@ -201,10 +201,30 @@
   ],
   "logs": [
     {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SixLabors.ImageSharp\" 3.0.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-5x7m-6737-26cr",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
       "message": "El paquete \"SixLabors.ImageSharp\" 3.0.1 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-65x7-c272-7g7r",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SixLabors.ImageSharp\" 3.0.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-g85r-6x2q-45w7",
       "libraryId": "SixLabors.ImageSharp",
       "targetGraphs": [
         "net6.0"
