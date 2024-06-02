@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.WindowsAzure.Storage;
+using Newtonsoft.Json.Linq;
 using Totem_API.Data;
 using Totem_API.Models;
 
@@ -232,6 +233,20 @@ namespace Totem_API.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
+        }
+
+        [HttpPut, Route("{id}/ModifyStatus")]
+        public async Task<IActionResult> ModifyStatus([FromRoute]int id, [FromBody]int nuevoEstado)
+        {
+            var totemFind = await _context.Totems.FirstOrDefaultAsync(t => t.IdTotem.Equals(id));
+            if(totemFind != null)
+            {
+                totemFind.Estado = (byte)nuevoEstado;
+                _context.Entry(totemFind).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+                return NoContent();
+            }
+            return NotFound();
         }
 
         private bool TotemExists(int id)

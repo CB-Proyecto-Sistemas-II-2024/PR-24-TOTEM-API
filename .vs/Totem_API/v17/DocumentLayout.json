@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|c:\\users\\elias\\source\\repos\\totem-pr-24\\totem_api\\controllers\\archivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|solutionrelative:totem_api\\controllers\\archivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|c:\\users\\elias\\source\\repos\\totem-pr-24\\totem_api\\controllers\\totemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|solutionrelative:totem_api\\controllers\\totemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArchivoController.cs",
-              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\Controllers\\ArchivoController.cs",
-              "RelativeDocumentMoniker": "Totem_API\\Controllers\\ArchivoController.cs",
-              "ToolTip": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\Controllers\\ArchivoController.cs",
-              "RelativeToolTip": "Totem_API\\Controllers\\ArchivoController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAA3wDUAAAAZAAAA",
+              "Title": "TotemsController.cs",
+              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\Controllers\\TotemsController.cs",
+              "RelativeDocumentMoniker": "Totem_API\\Controllers\\TotemsController.cs",
+              "ToolTip": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\Controllers\\TotemsController.cs",
+              "RelativeToolTip": "Totem_API\\Controllers\\TotemsController.cs",
+              "ViewState": "AQIAAOMAAAAAAAAAAAAAAPAAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T14:56:18.153Z",
+              "WhenOpened": "2024-06-01T15:32:20.6Z",
               "EditorCaption": ""
             }
           ]

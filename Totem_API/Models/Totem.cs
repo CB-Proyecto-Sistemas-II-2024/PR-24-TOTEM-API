@@ -15,6 +15,8 @@ public partial class Totem
 
     public int IdUsuario { get; set; }
 
+    public byte Estado { get; set; }
+
     public virtual Usuario? IdTotemNavigation { get; set; }
 
     public virtual ICollection<Locacion> Locacions { get; } = new List<Locacion>();
