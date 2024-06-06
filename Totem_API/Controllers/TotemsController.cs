@@ -249,6 +249,13 @@ namespace Totem_API.Controllers
             return NotFound();
         }
 
+        [HttpGet, Route("{id}/GetStatusTotem")]
+        public async Task<IActionResult> GetCurrentStatus([FromRoute]int id)
+        {
+            var estadoTotem = await _context.Totems.Where(t => t.IdTotem.Equals(id)).Select(t => t.Estado).FirstOrDefaultAsync();
+            return Ok(new { estadoActual = (int)estadoTotem });
+        }
+
         private bool TotemExists(int id)
         {
             return (_context.Totems?.Any(e => e.IdTotem == id)).GetValueOrDefault();
