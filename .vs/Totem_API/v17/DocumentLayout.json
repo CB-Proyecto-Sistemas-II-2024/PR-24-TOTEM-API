@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|c:\\users\\elias\\source\\repos\\totem-pr-24\\totem_api\\controllers\\totemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|solutionrelative:totem_api\\controllers\\totemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|c:\\users\\elias\\source\\repos\\totem-pr-24\\totem_api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|solutionrelative:totem_api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|c:\\users\\elias\\source\\repos\\totem-pr-24\\totem_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B517AE9-E30C-40B9-A5F0-6F0C911A60FE}|Totem_API\\Totem_API.csproj|solutionrelative:totem_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\appsettings.json",
+              "RelativeDocumentMoniker": "Totem_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\appsettings.json",
+              "RelativeToolTip": "Totem_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-09T23:19:50.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TotemsController.cs",
-              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\Controllers\\TotemsController.cs",
-              "RelativeDocumentMoniker": "Totem_API\\Controllers\\TotemsController.cs",
-              "ToolTip": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\Controllers\\TotemsController.cs",
-              "RelativeToolTip": "Totem_API\\Controllers\\TotemsController.cs",
-              "ViewState": "AQIAAOkAAAAAAAAAAADwvwABAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T18:35:56.167Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\Dockerfile",
+              "RelativeDocumentMoniker": "Totem_API\\Dockerfile",
+              "ToolTip": "C:\\Users\\elias\\source\\repos\\Totem-PR-24\\Totem_API\\Dockerfile",
+              "RelativeToolTip": "Totem_API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-09T23:01:37.839Z",
               "EditorCaption": ""
             }
           ]
